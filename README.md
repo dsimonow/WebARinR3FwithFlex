@@ -12,3 +12,5 @@ Entwender ein Android Endgerät mit Chrome verwendet werden, oder auf iOS mit de
 
 Dann können die UI Elemente auf der Unterseite verwendet werden um die Slides zu ändern.
 
+![Beispiel Bild der AR Ansicht](https://github.com/dsimonow/WebARinR3FwithFlex/blob/main/beispiel.png?raw=true)
+
