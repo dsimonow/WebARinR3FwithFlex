@@ -30,17 +30,17 @@ export default function HitTest() {
 
   useHitTest((hitMatrix) => {
     hitMatrix.decompose(ref.current.position, hitRota, hitScale);
+    console.log(ref);
   });
 
   //const handleClick = useCallback(e => set(items => [...items, uuid.generate()]), [])
 
-  // Tracking Stop. Set Flag for Compositionmanager
+  // Tracking Stop. Set Flag for Composition
   function handleClick() {
     const prevRotation = ref.current.rotation.clone();
-    //console.log(prevRotation);
-    //debugshelper //console.log(ref.current.position);
+
     setHitenabled((prevHitenabled) => true);
-    setPos((prevPos) => ref.current.position);
+    //setPos((prevPos) => ref.current.position);
 
     //debugshelper //console.log(ref.current.position);
     const prevRot = ref.current.quaternion.copy(camera.quaternion);

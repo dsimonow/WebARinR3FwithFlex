@@ -8,17 +8,19 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "@react-three/drei": "8.6.0",
-    "@react-three/fiber": "7.0.24",
-    "@react-three/flex": "0.7.0",
-    "@react-three/xr": "3.2.0",
+    "@babel/runtime": "^7.20.1",
+    "@react-three/drei": "9.40.4",
+    "@react-three/fiber": "8.9.1",
+    "@react-three/flex": "^1.0.0",
+    "@react-three/xr": "5.0.5",
     "@use-it/interval": "1.0.0",
+    "install-peerdeps": "^3.0.3",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
     "short-uuid": "4.2.0",
-    "three": "0.143.0",
+    "three": "0.146.0",
     "zustand": "^4.1.4"
   },
   "devDependencies": {
@@ -27,11 +29,14 @@
     "@storybook/addon-interactions": "^6.5.13",
     "@storybook/addon-links": "^6.5.13",
     "@storybook/builder-webpack4": "^6.5.13",
+    "@storybook/builder-webpack5": "^6.5.13",
     "@storybook/manager-webpack4": "^6.5.13",
+    "@storybook/manager-webpack5": "^6.5.13",
     "@storybook/node-logger": "^6.5.13",
-    "@storybook/preset-create-react-app": "^3.2.0",
+    "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^6.5.13",
-    "@storybook/testing-library": "^0.0.13"
+    "@storybook/testing-library": "^0.0.13",
+    "webpack": "5"
   },
   "scripts": {
     "start": "react-scripts start",
