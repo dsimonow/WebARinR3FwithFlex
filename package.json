@@ -13,11 +13,11 @@
     "@react-three/flex": "0.7.0",
     "@react-three/xr": "3.2.0",
     "@use-it/interval": "1.0.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-scripts": "4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
     "short-uuid": "4.2.0",
-    "three": "0.136.0"
+    "three": "0.143.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.5.13",
@@ -64,5 +64,6 @@
         }
       }
     ]
-  }
+  },
+  "packageManager": "yarn@3.3.0"
 }
