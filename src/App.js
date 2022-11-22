@@ -2,6 +2,7 @@ import { PerspectiveCamera, OrbitControls } from "@react-three/drei";
 import { ARCanvas } from "@react-three/xr";
 import UIElements from "./components/UIElements";
 import HitTest from "./components/HitTest";
+import { Canvas } from "@react-three/fiber";
 
 export default function App() {
   return (
@@ -10,7 +11,7 @@ export default function App() {
         <UIElements />
       </PerspectiveCamera>
       <HitTest />
-      <OrbitControls />
+      <OrbitControls/>
     </ARCanvas>
   );
 }

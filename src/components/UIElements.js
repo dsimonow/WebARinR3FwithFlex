@@ -11,10 +11,10 @@ export default function UIElements(props) {
   );
   const resetSlidePosition = useStore((state) => state.resetSlidePosition);
   return (
-    <>
+    <group position={[0,-0.15,0]}>
       <Interactive onSelect={increaseSlidePosition}>
         <Cone
-          position={[0.1, -0.15, -0.5]}
+          position={[0.1, 0, -0.5]}
           rotation={[0, 0, -1.65]}
           castShadow
           receiveShadow
@@ -26,7 +26,7 @@ export default function UIElements(props) {
       </Interactive>
       <Interactive onSelect={resetSlidePosition}>
         <mesh
-          position={[0, -0.15, -0.5]}
+          position={[0, 0, -0.5]}
           castShadow
           receiveShadow
           scale={0.05}
@@ -37,7 +37,7 @@ export default function UIElements(props) {
       </Interactive>
       <Interactive onSelect={decreaseSlidePosition}>
         <Cone
-          position={[-0.1, -0.15, -0.5]}
+          position={[-0.1, 0, -0.5]}
           rotation={[0, 0, 1.65]}
           castShadow
           receiveShadow
@@ -47,6 +47,6 @@ export default function UIElements(props) {
           <Cone position={[0, 0.8, 0]} scale={0.1} />
         </Cone>
       </Interactive>
-    </>
+    </group>
   );
 }
